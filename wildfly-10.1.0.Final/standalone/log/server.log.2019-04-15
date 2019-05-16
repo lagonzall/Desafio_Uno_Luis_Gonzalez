@@ -1,0 +1,463 @@
+2019-04-15 15:35:18,724 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2019-04-15 15:35:18,897 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2019-04-15 15:35:18,970 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2019-04-15 15:35:18,971 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/jboss-modules.jar:/usr/local/java/jdk1.8.0_151/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_151/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_151/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_151/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_151/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_151/jre/lib/jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/local/java/jdk1.8.0_151/jre/lib/endorsed
+	java.ext.dirs = /usr/local/java/jdk1.8.0_151/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/local/java/jdk1.8.0_151/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_151-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero
+	jboss.host.name = lagonzall-inspiron-14-3467
+	jboss.modules.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = lagonzall-inspiron-14-3467
+	jboss.qualified.host.name = lagonzall-inspiron-14-3467
+	jboss.server.base.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone
+	jboss.server.config.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/configuration
+	jboss.server.data.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/data
+	jboss.server.deploy.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/data/content
+	jboss.server.log.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/log
+	jboss.server.name = lagonzall-inspiron-14-3467
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/configuration/logging.properties
+	module.path = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/modules
+	org.jboss.boot.log.file = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.15.0-47-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/local/java/jdk1.8.0_151/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_151/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_151/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_151/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_151/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_151/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_151/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_151/jre/classes
+	sun.boot.library.path = /usr/local/java/jdk1.8.0_151/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CL
+	user.dir = /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/bin
+	user.home = /home/lagonzall
+	user.language = es
+	user.name = lagonzall
+	user.timezone = America/Santiago
+2019-04-15 15:35:18,972 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:40141 -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/log/boot.log -Dlogging.configuration=file:/home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/configuration/logging.properties -Djboss.home.dir=/home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2019-04-15 15:35:20,656 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear in deployment directory. To trigger deployment create a file called ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear.dodeploy
+2019-04-15 15:35:20,659 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found CentralEJBEAR-0.0.1-SNAPSHOT.ear in deployment directory. To trigger deployment create a file called CentralEJBEAR-0.0.1-SNAPSHOT.ear.dodeploy
+2019-04-15 15:35:20,660 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ProvisionSubscriberWS-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called ProvisionSubscriberWS-0.0.1-SNAPSHOT.war.dodeploy
+2019-04-15 15:35:20,661 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found CentralWS-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called CentralWS-0.0.1-SNAPSHOT.war.dodeploy
+2019-04-15 15:35:20,731 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-04-15 15:35:20,755 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.4.0.Final
+2019-04-15 15:35:20,771 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.4.0.Final
+2019-04-15 15:35:20,842 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2019-04-15 15:35:20,845 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2019-04-15 15:35:20,893 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2019-04-15 15:35:20,908 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2019-04-15 15:35:20,911 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2019-04-15 15:35:21,140 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2019-04-15 15:35:21,142 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2019-04-15 15:35:21,154 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2019-04-15 15:35:21,158 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2019-04-15 15:35:21,159 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2019-04-15 15:35:21,162 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2019-04-15 15:35:21,194 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.1)
+2019-04-15 15:35:21,212 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2019-04-15 15:35:21,213 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.1)
+2019-04-15 15:35:21,213 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = postgresqlNOXA
+2019-04-15 15:35:21,230 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2019-04-15 15:35:21,248 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.4.0.Final starting
+2019-04-15 15:35:21,251 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2019-04-15 15:35:21,294 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.21.Final
+2019-04-15 15:35:21,374 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2019-04-15 15:35:21,376 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-04-15 15:35:21,378 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2019-04-15 15:35:21,401 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/roberto/Imágenes' with options [directory-listing: 'true', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-04-15 15:35:21,463 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2019-04-15 15:35:21,464 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2019-04-15 15:35:21,524 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2019-04-15 15:35:21,866 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/EsmdbDashBoardFrontEndXADS]
+2019-04-15 15:35:21,866 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/InterfaceMonitorXADS]
+2019-04-15 15:35:21,867 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/PricingServiceProductIntegrationXADS]
+2019-04-15 15:35:21,868 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/EsmdbDashBoardXADS]
+2019-04-15 15:35:21,865 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/ProvisionsubscriberXADS]
+2019-04-15 15:35:21,907 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/ProCentralAdminXADS]
+2019-04-15 15:35:21,907 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/EsmdbOlReportXADS]
+2019-04-15 15:35:21,907 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/ProMessServiceXADS]
+2019-04-15 15:35:21,907 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:/ProvisionSubscriberXADS]
+2019-04-15 15:35:21,907 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/PricingXADS]
+2019-04-15 15:35:21,908 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2019-04-15 15:35:21,910 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:/PortalDS]
+2019-04-15 15:35:22,012 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "CentralEJBEAR-0.0.1-SNAPSHOT.ear" (runtime-name: "CentralEJBEAR-0.0.1-SNAPSHOT.ear")
+2019-04-15 15:35:22,014 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear" (runtime-name: "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear")
+2019-04-15 15:35:22,015 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ProvisionSubscriberWS-0.0.1-SNAPSHOT.war" (runtime-name: "ProvisionSubscriberWS-0.0.1-SNAPSHOT.war")
+2019-04-15 15:35:22,016 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "CentralWS-0.0.1-SNAPSHOT.war" (runtime-name: "CentralWS-0.0.1-SNAPSHOT.war")
+2019-04-15 15:35:22,029 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /home/lagonzall/Documentos/wildfly-10.1.0.Final.esmero/standalone/deployments
+2019-04-15 15:35:22,443 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2019-04-15 15:35:22,514 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-15 15:35:22,516 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-15 15:35:22,523 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-15 15:35:22,524 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-15 15:35:22,615 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-15 15:35:22,616 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-15 15:35:22,814 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "CentralEJB-0.0.1-SNAPSHOT.jar")
+2019-04-15 15:35:23,222 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2019-04-15 15:35:23,551 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2019-04-15 15:35:24,263 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for provisioning
+2019-04-15 15:35:24,451 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'CentralEJBEAR-0.0.1-SNAPSHOT.ear/CentralEJB-0.0.1-SNAPSHOT.jar#provisioning'
+2019-04-15 15:35:24,470 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment CentralEJBEAR-0.0.1-SNAPSHOT.ear
+2019-04-15 15:35:24,481 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: provisioning
+	...]
+2019-04-15 15:35:24,529 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar")
+2019-04-15 15:35:24,557 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for InterfaceMonitor
+2019-04-15 15:35:24,701 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final
+2019-04-15 15:35:24,736 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear
+2019-04-15 15:35:24,738 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear/ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar#InterfaceMonitor'
+2019-04-15 15:35:24,738 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: InterfaceMonitor
+	...]
+2019-04-15 15:35:24,745 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.0.10.Final}
+2019-04-15 15:35:24,749 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2019-04-15 15:35:24,795 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2019-04-15 15:35:24,922 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment CentralWS-0.0.1-SNAPSHOT.war
+2019-04-15 15:35:24,926 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment ProvisionSubscriberWS-0.0.1-SNAPSHOT.war
+2019-04-15 15:35:24,953 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 60) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-15 15:35:25,121 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar
+2019-04-15 15:35:25,125 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'SubscriberInformationDAO' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberInformationDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberInformationDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberInformationDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberInformationDAO
+	java:module/SubscriberInformationDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberInformationDAO
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberInformationDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberInformationDAO
+	java:module/SubscriberInformationDAO
+
+2019-04-15 15:35:25,125 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'OperatorDAO' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/OperatorDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.OperatorDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/OperatorDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.OperatorDAO
+	java:module/OperatorDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.OperatorDAO
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/OperatorDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/OperatorDAO
+	java:module/OperatorDAO
+
+2019-04-15 15:35:25,125 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'BagCreditDAO' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/BagCreditDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.BagCreditDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/BagCreditDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.BagCreditDAO
+	java:module/BagCreditDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.BagCreditDAO
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/BagCreditDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/BagCreditDAO
+	java:module/BagCreditDAO
+
+2019-04-15 15:35:25,125 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'BalanceCreditDAO' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/BalanceCreditDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.BalanceCreditDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/BalanceCreditDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.BalanceCreditDAO
+	java:module/BalanceCreditDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.BalanceCreditDAO
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/BalanceCreditDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/BalanceCreditDAO
+	java:module/BalanceCreditDAO
+
+2019-04-15 15:35:25,126 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ProvisionSubscriberBean' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/ProvisionSubscriberBean!com.esmero.cl.ocs.management.provisionsubscriber.remote.ProvisionSubscriberBeanRemote
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/ProvisionSubscriberBean!com.esmero.cl.ocs.management.provisionsubscriber.remote.ProvisionSubscriberBeanRemote
+	java:module/ProvisionSubscriberBean!com.esmero.cl.ocs.management.provisionsubscriber.remote.ProvisionSubscriberBeanRemote
+	java:jboss/exported/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/ProvisionSubscriberBean!com.esmero.cl.ocs.management.provisionsubscriber.remote.ProvisionSubscriberBeanRemote
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/ProvisionSubscriberBean
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/ProvisionSubscriberBean
+	java:module/ProvisionSubscriberBean
+
+2019-04-15 15:35:25,127 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'InterfaceMonitorDBFactory' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/InterfaceMonitorDBFactory!com.esmero.cl.ocs.management.provisionsubscriber.factory.InterfaceMonitorDBFactory
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/InterfaceMonitorDBFactory!com.esmero.cl.ocs.management.provisionsubscriber.factory.InterfaceMonitorDBFactory
+	java:module/InterfaceMonitorDBFactory!com.esmero.cl.ocs.management.provisionsubscriber.factory.InterfaceMonitorDBFactory
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/InterfaceMonitorDBFactory
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/InterfaceMonitorDBFactory
+	java:module/InterfaceMonitorDBFactory
+
+2019-04-15 15:35:25,127 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'SubscriberDAO' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberDAO
+	java:module/SubscriberDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberDAO
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberDAO
+	java:module/SubscriberDAO
+
+2019-04-15 15:35:25,127 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'SubscriberSimCardDAO' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberSimCardDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberSimCardDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberSimCardDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberSimCardDAO
+	java:module/SubscriberSimCardDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberSimCardDAO
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberSimCardDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberSimCardDAO
+	java:module/SubscriberSimCardDAO
+
+2019-04-15 15:35:25,127 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'SubscriberAddressDAO' in deployment unit 'subdeployment "ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar" of deployment "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberAddressDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberAddressDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberAddressDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberAddressDAO
+	java:module/SubscriberAddressDAO!com.esmero.cl.ocs.management.provisionsubscriber.dao.SubscriberAddressDAO
+	java:global/ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberAddressDAO
+	java:app/ProvisionSubscriberEJB-0.0.1-SNAPSHOT/SubscriberAddressDAO
+	java:module/SubscriberAddressDAO
+
+2019-04-15 15:35:25,168 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment CentralEJB-0.0.1-SNAPSHOT.jar
+2019-04-15 15:35:25,178 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ConfigurationDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ConfigurationDAO!com.esmero.cl.mvno.provisioning.central.dao.ConfigurationDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ConfigurationDAO!com.esmero.cl.mvno.provisioning.central.dao.ConfigurationDAO
+	java:module/ConfigurationDAO!com.esmero.cl.mvno.provisioning.central.dao.ConfigurationDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ConfigurationDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ConfigurationDAO
+	java:module/ConfigurationDAO
+
+2019-04-15 15:35:25,179 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'MovementBean' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/MovementBean!com.esmero.cl.mvno.provisioning.central.remote.MovementBeanRemote
+	java:app/CentralEJB-0.0.1-SNAPSHOT/MovementBean!com.esmero.cl.mvno.provisioning.central.remote.MovementBeanRemote
+	java:module/MovementBean!com.esmero.cl.mvno.provisioning.central.remote.MovementBeanRemote
+	java:jboss/exported/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/MovementBean!com.esmero.cl.mvno.provisioning.central.remote.MovementBeanRemote
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/MovementBean
+	java:app/CentralEJB-0.0.1-SNAPSHOT/MovementBean
+	java:module/MovementBean
+
+2019-04-15 15:35:25,179 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'TypeActionDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/TypeActionDAO!com.esmero.cl.mvno.provisioning.central.dao.TypeActionDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/TypeActionDAO!com.esmero.cl.mvno.provisioning.central.dao.TypeActionDAO
+	java:module/TypeActionDAO!com.esmero.cl.mvno.provisioning.central.dao.TypeActionDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/TypeActionDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/TypeActionDAO
+	java:module/TypeActionDAO
+
+2019-04-15 15:35:25,179 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ResponseManagerBean' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerBean!com.esmero.cl.mvno.provisioning.central.remote.ResponseManagerBeanRemote
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerBean!com.esmero.cl.mvno.provisioning.central.remote.ResponseManagerBeanRemote
+	java:module/ResponseManagerBean!com.esmero.cl.mvno.provisioning.central.remote.ResponseManagerBeanRemote
+	java:jboss/exported/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerBean!com.esmero.cl.mvno.provisioning.central.remote.ResponseManagerBeanRemote
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerBean
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerBean
+	java:module/ResponseManagerBean
+
+2019-04-15 15:35:25,179 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ModuleDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ModuleDAO!com.esmero.cl.mvno.provisioning.central.dao.ModuleDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ModuleDAO!com.esmero.cl.mvno.provisioning.central.dao.ModuleDAO
+	java:module/ModuleDAO!com.esmero.cl.mvno.provisioning.central.dao.ModuleDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ModuleDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ModuleDAO
+	java:module/ModuleDAO
+
+2019-04-15 15:35:25,179 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'MovementDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/MovementDAO!com.esmero.cl.mvno.provisioning.central.dao.MovementDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/MovementDAO!com.esmero.cl.mvno.provisioning.central.dao.MovementDAO
+	java:module/MovementDAO!com.esmero.cl.mvno.provisioning.central.dao.MovementDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/MovementDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/MovementDAO
+	java:module/MovementDAO
+
+2019-04-15 15:35:25,180 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ResponseManagerDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerDAO!com.esmero.cl.mvno.provisioning.central.dao.ResponseManagerDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerDAO!com.esmero.cl.mvno.provisioning.central.dao.ResponseManagerDAO
+	java:module/ResponseManagerDAO!com.esmero.cl.mvno.provisioning.central.dao.ResponseManagerDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ResponseManagerDAO
+	java:module/ResponseManagerDAO
+
+2019-04-15 15:35:25,180 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ProvisioningDBFactory' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ProvisioningDBFactory!com.esmero.cl.mvno.provisioning.central.factory.ProvisioningDBFactory
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ProvisioningDBFactory!com.esmero.cl.mvno.provisioning.central.factory.ProvisioningDBFactory
+	java:module/ProvisioningDBFactory!com.esmero.cl.mvno.provisioning.central.factory.ProvisioningDBFactory
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ProvisioningDBFactory
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ProvisioningDBFactory
+	java:module/ProvisioningDBFactory
+
+2019-04-15 15:35:25,180 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'TypeActionParameterDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/TypeActionParameterDAO!com.esmero.cl.mvno.provisioning.central.dao.TypeActionParameterDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/TypeActionParameterDAO!com.esmero.cl.mvno.provisioning.central.dao.TypeActionParameterDAO
+	java:module/TypeActionParameterDAO!com.esmero.cl.mvno.provisioning.central.dao.TypeActionParameterDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/TypeActionParameterDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/TypeActionParameterDAO
+	java:module/TypeActionParameterDAO
+
+2019-04-15 15:35:25,180 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'PlatformCommandDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/PlatformCommandDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformCommandDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/PlatformCommandDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformCommandDAO
+	java:module/PlatformCommandDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformCommandDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/PlatformCommandDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/PlatformCommandDAO
+	java:module/PlatformCommandDAO
+
+2019-04-15 15:35:25,180 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'TypeActionBean' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/TypeActionBean!com.esmero.cl.mvno.provisioning.central.remote.TypeActionBeanRemote
+	java:app/CentralEJB-0.0.1-SNAPSHOT/TypeActionBean!com.esmero.cl.mvno.provisioning.central.remote.TypeActionBeanRemote
+	java:module/TypeActionBean!com.esmero.cl.mvno.provisioning.central.remote.TypeActionBeanRemote
+	java:jboss/exported/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/TypeActionBean!com.esmero.cl.mvno.provisioning.central.remote.TypeActionBeanRemote
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/TypeActionBean
+	java:app/CentralEJB-0.0.1-SNAPSHOT/TypeActionBean
+	java:module/TypeActionBean
+
+2019-04-15 15:35:25,180 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'PlatformDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/PlatformDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/PlatformDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformDAO
+	java:module/PlatformDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/PlatformDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/PlatformDAO
+	java:module/PlatformDAO
+
+2019-04-15 15:35:25,180 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ModuleBean' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ModuleBean!com.esmero.cl.mvno.provisioning.central.remote.ModuleBeanRemote
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ModuleBean!com.esmero.cl.mvno.provisioning.central.remote.ModuleBeanRemote
+	java:module/ModuleBean!com.esmero.cl.mvno.provisioning.central.remote.ModuleBeanRemote
+	java:jboss/exported/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ModuleBean!com.esmero.cl.mvno.provisioning.central.remote.ModuleBeanRemote
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ModuleBean
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ModuleBean
+	java:module/ModuleBean
+
+2019-04-15 15:35:25,181 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'PlatformChatDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/PlatformChatDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformChatDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/PlatformChatDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformChatDAO
+	java:module/PlatformChatDAO!com.esmero.cl.mvno.provisioning.central.dao.PlatformChatDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/PlatformChatDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/PlatformChatDAO
+	java:module/PlatformChatDAO
+
+2019-04-15 15:35:25,181 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'StateActionDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/StateActionDAO!com.esmero.cl.mvno.provisioning.central.dao.StateActionDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/StateActionDAO!com.esmero.cl.mvno.provisioning.central.dao.StateActionDAO
+	java:module/StateActionDAO!com.esmero.cl.mvno.provisioning.central.dao.StateActionDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/StateActionDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/StateActionDAO
+	java:module/StateActionDAO
+
+2019-04-15 15:35:25,181 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ActionDAO' in deployment unit 'subdeployment "CentralEJB-0.0.1-SNAPSHOT.jar" of deployment "CentralEJBEAR-0.0.1-SNAPSHOT.ear"' are as follows:
+
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ActionDAO!com.esmero.cl.mvno.provisioning.central.dao.ActionDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ActionDAO!com.esmero.cl.mvno.provisioning.central.dao.ActionDAO
+	java:module/ActionDAO!com.esmero.cl.mvno.provisioning.central.dao.ActionDAO
+	java:global/CentralEJBEAR-0.0.1-SNAPSHOT/CentralEJB-0.0.1-SNAPSHOT/ActionDAO
+	java:app/CentralEJB-0.0.1-SNAPSHOT/ActionDAO
+	java:module/ActionDAO
+
+2019-04-15 15:35:25,221 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.3.5 (Final)
+2019-04-15 15:35:25,852 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-15 15:35:25,853 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-04-15 15:35:25,935 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear/ProvisionSubscriberEJB-0.0.1-SNAPSHOT.jar#InterfaceMonitor'
+2019-04-15 15:35:25,974 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'CentralEJBEAR-0.0.1-SNAPSHOT.ear/CentralEJB-0.0.1-SNAPSHOT.jar#provisioning'
+2019-04-15 15:35:26,399 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2019-04-15 15:35:26,404 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 60) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2019-04-15 15:35:26,748 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
+2019-04-15 15:35:27,657 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 58) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-04-15 15:35:27,660 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 58) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@70119473
+2019-04-15 15:35:27,668 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2019-04-15 15:35:27,671 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: /ProvisionSubscriberWS
+2019-04-15 15:35:28,770 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2019-04-15 15:35:29,301 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 60) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-04-15 15:35:29,302 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 60) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@70119473
+2019-04-15 15:35:29,305 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 60) Envers integration enabled? : true
+2019-04-15 15:35:29,382 INFO  [org.hibernate.search.engine.Version] (ServerService Thread Pool -- 60) HSEARCH000034: Hibernate Search 5.5.4.Final
+2019-04-15 15:35:29,454 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 60) HHH000397: Using ASTQueryTranslatorFactory
+2019-04-15 15:35:29,518 WARN  [org.hibernate.search.engine.impl.ConfigContext] (ServerService Thread Pool -- 60) HSEARCH000075: Configuration setting hibernate.search.lucene_version was not specified: using LUCENE_CURRENT.
+2019-04-15 15:35:29,856 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "CentralWS-0.0.1-SNAPSHOT.war")]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.deployment.unit.\"CentralWS-0.0.1-SNAPSHOT.war\".beanmanager",
+        "org.wildfly.remoting.endpoint.outbound-connection.remote-ejb-connection"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.ejb3.dd-based-ejb-client-context.\"CentralWS-0.0.1-SNAPSHOT.war\".internal-remoting-profile is missing [org.wildfly.remoting.endpoint.outbound-connection.remote-ejb-connection]",
+        "jboss.deployment.unit.\"CentralWS-0.0.1-SNAPSHOT.war\".batch.environment is missing [jboss.deployment.unit.\"CentralWS-0.0.1-SNAPSHOT.war\".beanmanager]",
+        "jboss.deployment.unit.\"CentralWS-0.0.1-SNAPSHOT.war\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"CentralWS-0.0.1-SNAPSHOT.war\".beanmanager]"
+    ]
+}
+2019-04-15 15:35:29,888 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "CentralWS-0.0.1-SNAPSHOT.war" (runtime-name : "CentralWS-0.0.1-SNAPSHOT.war")
+2019-04-15 15:35:29,889 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ProvisionSubscriberWS-0.0.1-SNAPSHOT.war" (runtime-name : "ProvisionSubscriberWS-0.0.1-SNAPSHOT.war")
+2019-04-15 15:35:29,889 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "CentralEJBEAR-0.0.1-SNAPSHOT.ear" (runtime-name : "CentralEJBEAR-0.0.1-SNAPSHOT.ear")
+2019-04-15 15:35:29,889 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear" (runtime-name : "ProvisionSubscriberEJBEAR-0.0.1-SNAPSHOT.ear")
+2019-04-15 15:35:29,890 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."CentralWS-0.0.1-SNAPSHOT.war".beanmanager (missing) dependents: [service jboss.deployment.unit."CentralWS-0.0.1-SNAPSHOT.war".weld.weldClassIntrospector, service jboss.deployment.unit."CentralWS-0.0.1-SNAPSHOT.war".batch.environment] 
+      service org.wildfly.remoting.endpoint.outbound-connection.remote-ejb-connection (missing) dependents: [service jboss.ejb3.dd-based-ejb-client-context."CentralWS-0.0.1-SNAPSHOT.war".internal-remoting-profile] 
+
+2019-04-15 15:35:30,036 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+2019-04-15 15:35:30,036 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
+2019-04-15 15:35:30,036 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started (with errors) in 11768ms - Started 1554 of 1832 services (6 services failed or missing dependencies, 450 services are lazy, passive or on-demand)
+2019-04-15 15:35:30,100 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment CentralWS-0.0.1-SNAPSHOT.war (runtime-name: CentralWS-0.0.1-SNAPSHOT.war) in 17ms
+2019-04-15 15:35:30,164 WARN  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2019-04-15 15:35:30,166 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "CentralWS-0.0.1-SNAPSHOT.war" (runtime-name: "CentralWS-0.0.1-SNAPSHOT.war")
+2019-04-15 15:35:30,166 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.ejb3.dd-based-ejb-client-context."CentralWS-0.0.1-SNAPSHOT.war".internal-remoting-profile (missing) dependents: [service jboss.ejb3.dd-based-ejb-client-context."CentralWS-0.0.1-SNAPSHOT.war"] 
+      service jboss.naming.context.java.app."CentralWS-0.0.1-SNAPSHOT" (missing) dependents: [service jboss.deployment.unit."CentralWS-0.0.1-SNAPSHOT.war".INSTALL] 
+      service jboss.naming.context.java.module."CentralWS-0.0.1-SNAPSHOT"."CentralWS-0.0.1-SNAPSHOT" (missing) dependents: [service jboss.deployment.unit."CentralWS-0.0.1-SNAPSHOT.war".INSTALL] 
+
+2019-04-15 15:35:31,691 WARN  [com.arjuna.ats.arjuna] (Periodic Recovery) Transaction 0:ffff7f000101:42126565:5bfc1216:103 has 1 heuristic participant(s)!
+2019-04-15 15:35:31,714 WARN  [com.arjuna.ats.jta] (Periodic Recovery) ARJUNA016037: Could not find new XAResource to use for recovering non-serializable XAResource XAResourceRecord < resource:null, txid:< formatId=131077, gtrid_length=29, bqual_length=36, tx_uid=0:ffff7f000101:42126565:5bfc1216:103, node_name=1, branch_uid=0:ffff7f000101:42126565:5bfc1216:108, subordinatenodename=null, eis_name=java:/EsmdbDashBoardFrontEndXADS >, heuristic: TwoPhaseOutcome.FINISH_OK, product: PostgreSQL/9.6.5, jndiName: java:/EsmdbDashBoardFrontEndXADS com.arjuna.ats.internal.jta.resources.arjunacore.XAResourceRecord@2461213e >
+2019-04-15 15:35:31,715 WARN  [com.arjuna.ats.arjuna] (Periodic Recovery) Transaction 0:ffff7f000101:42126565:5bfc1216:103 restored heuristic participant XAResourceRecord < resource:null, txid:< formatId=131077, gtrid_length=29, bqual_length=36, tx_uid=0:ffff7f000101:42126565:5bfc1216:103, node_name=1, branch_uid=0:ffff7f000101:42126565:5bfc1216:108, subordinatenodename=null, eis_name=java:/EsmdbDashBoardFrontEndXADS >, heuristic: TwoPhaseOutcome.FINISH_OK, product: PostgreSQL/9.6.5, jndiName: java:/EsmdbDashBoardFrontEndXADS com.arjuna.ats.internal.jta.resources.arjunacore.XAResourceRecord@2461213e >
+2019-04-15 15:35:34,978 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found CentralWS-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called CentralWS-0.0.1-SNAPSHOT.war.dodeploy

@@ -1,0 +1,159 @@
+<!--
+  Copyright (c) 2017, Alma Technologies
+  
+  END USER LICENSE AGREEMENT
+  This is a license, not a sale. This product is provided
+  under the following license which defines what you may
+  and may not do with the product, and contains limitations
+  on warranties and/or remedies.
+  By clicking on "I accept the agreement" and then the Next
+  button or using the enclosed program, you are consenting
+  to be bound by this agreement. If you do not agree to all
+  of the terms of this agreement, click "I do not accept
+  the agreement" and then click the Cancel button and the
+  installation process will not continue.
+  
+  1. License - By receiving and/or using this Alma
+  Technologies, you accept and agree to be bound by the
+  following License Agreement. Subject to the terms of this
+  Agreement, Alma Technologies grants to you a limited,
+  non-exclusive, non-transferable license, without right to
+  sub-license, to use this Software in accordance with this
+  Agreement. Alma Technologies does not transfer title to
+  this Software to you; the license granted to you is not a
+  sale. This agreement is a binding legal agreement between
+  Alma Technologies and the purchasers or users of this
+  Software. If you do not agree to be bound by this
+  agreement, remove this Software from your computer now
+  and cease to use the product.
+  
+  2. Distribution - This Software and the license herein
+  granted shall not be copied, shared, distributed,
+  re-sold, offered for re-sale, transferred or sub-licensed
+  in whole or in part except that you may make one copy for
+  archive purposes only. The Software is distributed "as
+  is." No warranty of any kind is expressed or implied. Use
+  this Software at your own risk. Alma Technologies will
+  not be liable for data loss, damages, loss of profits or
+  any other kind of loss while using or misusing this
+  software.
+  
+  3. User Agreement
+  
+  3.1 Use - Each licensed copy is for personal use only and
+  your license to use this Software is limited to the
+  number of licenses purchased by you.
+  You shall not allow others to use, copy or evaluate
+  copies of this Software.
+  
+  3.2 Use Restrictions - You shall use this Software in
+  compliance with all applicable laws and not for any
+  unlawful purpose.
+  Each licensed copy of this Software may be used on one
+  single computer location by one user. "Use" of the
+  Software means that you have loaded, installed, or run
+  the Software on a computer or similar device. If you
+  install the Software onto a multi-user platform, server
+  or network, each and every individual user of the
+  Software must be licensed separately. The assignment,
+  sublicense, networking, sale, or distribution of copies
+  of this Software are strictly forbidden without the prior
+  written consent of Alma Technologies.
+  It is a violation of this agreement to assign, sell,
+  share, loan, rent, lease, borrow, network or transfer the
+  use of this Software.
+  You may not use a previous version of the Software after
+  you have received an upgraded version of the Software, or
+  transfer or assign the previous version of the Software
+  to another individual.
+  
+  3.3 Copyright Restriction - This Software contains
+  copyrighted material, trade secrets and other proprietary
+  material. You shall not, and shall not attempt to,
+  modify, reverse engineer, disassemble or decompile this
+  Software. Nor can you create any derivative works or
+  other works that are based upon or derived from the
+  Software in whole or in part.
+  Alma Technologies's name, logo and graphics file that
+  represents our Software shall not be used in any way to
+  promote products developed with our Software. Alma
+  Technologies retains sole and exclusive ownership of all
+  right, title and interest in and to the Software and all
+  Intellectual Property rights relating thereto. Copyright
+  law and international copyright treaty provisions protect
+  all parts of Alma Technologies software, products and
+  services. No program, code, part, image, audio sample, or
+  text may be copied or used in any way by the user except
+  as intended within the bounds of the single user program.
+  All rights not expressly granted hereunder are reserved
+  for Alma Technologies.
+  
+  3.4 Limitation of Responsibility - You will indemnify,
+  hold harmless, and defend Alma Technologies, its
+  employees, agents and distributors against any and all
+  claims, proceedings, demand and costs resulting from or
+  in any way connected with your use of this Software.
+  In no event (including, without limitation, in the event
+  of negligence) will Alma Technologies, its employees,
+  contractors, agents or distributors be liable for any
+  consequential, incidental, indirect, special or punitive
+  damages whatsoever (including, without limitation,
+  damages for loss of profits, loss of use, business
+  interruption, loss of information or data, or pecuniary
+  loss), in connection with or arising out of or related to
+  this Agreement, this Software or the use or inability to
+  use this Software or the furnishing, performance or use
+  of any other matters hereunder whether based upon
+  contract, tort or any other theory including negligence.
+  
+  3.5 Warranties - Except as expressly stated in writing,
+  Alma Technologies makes no representation or warranties
+  in respect of this Software and expressly excludes all
+  other warranties, expressed or implied, oral or written,
+  including, without limitation, any implied warranties of
+  merchantable quality or fitness for a particular purpose.
+  
+  3.6 Termination - Any failure to comply with the terms
+  and conditions of this Agreement will result in automatic
+  and immediate termination of this license. Upon
+  termination of this license granted herein for any
+  reason, you agree to immediately cease use of the
+  Software and destroy all copies of the Software in your
+  possession. The financial obligations incurred by you
+  shall survive the expiration or termination of this
+  license.
+  
+  4. Confidentiality - The Software contains trade secrets
+  and proprietary know-how that belong to Alma Technologies
+  and it is being made available to you in strict
+  confidence. Any use or disclosure of the software, or of
+  its algorithms, protocols or interfaces, other than in
+  strict accordance with the license agreement, may be
+  actionable as a violation of Alma Technologies trade
+  secret rights.
+  
+  
+  General Provisions
+  This written license agreement is the exclusive agreement
+  between you and us concerning the Software and
+  Documentation and supersedes any prior purchase order,
+  communication, advertising or representation concerning
+  the Software.
+  This license agreement may be modified only by a writing
+  signed by you and Alma Technologies
+  In the event of litigation between you and us concerning
+  the Software or Documentation, the prevailing party in
+  the litigation will be entitled to.
+-->
+<jboss xmlns="http://www.jboss.com/xml/ns/javaee"
+       xmlns:jee="http://java.sun.com/xml/ns/javaee"
+       xmlns:ci ="urn:container-interceptors:1.0">
+ 
+    <jee:assembly-descriptor>
+        <ci:container-interceptors>
+            <jee:interceptor-binding>
+                <interceptor-class>com.cl.proyect.dategenerate.interceptor.LoggingInterceptor</interceptor-class>
+            </jee:interceptor-binding>
+        </ci:container-interceptors>
+    </jee:assembly-descriptor>
+</jboss>

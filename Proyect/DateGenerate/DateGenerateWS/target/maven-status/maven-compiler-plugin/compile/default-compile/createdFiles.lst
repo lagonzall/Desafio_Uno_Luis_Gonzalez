@@ -1,0 +1,10 @@
+com/cl/proyect/dategenerate/ws/controller/DateGenerateService.class
+com/cl/proyect/dategenerate/ws/servicelocator/ClientUtility.class
+com/cl/proyect/dategenerate/ws/utils/WSConfigurationFile.class
+com/cl/proyect/dategenerate/ws/interceptor/Logging.class
+com/cl/proyect/dategenerate/ws/delegate/DateGenerateDelegate.class
+com/cl/proyect/dategenerate/ws/interceptor/LoggingInterceptor.class
+com/cl/proyect/dategenerate/ws/utils/NullValidator.class
+com/cl/proyect/dategenerate/ws/interceptor/AuditInterceptor.class
+com/cl/proyect/dategenerate/ws/interceptor/Audit.class
+com/cl/proyect/dategenerate/ws/servicelocator/DateGenerateServiceLocator.class

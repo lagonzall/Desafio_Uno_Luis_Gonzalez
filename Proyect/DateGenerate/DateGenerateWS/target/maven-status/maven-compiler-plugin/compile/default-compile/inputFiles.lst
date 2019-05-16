@@ -1,0 +1,10 @@
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/controller/DateGenerateService.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/utils/NullValidator.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/interceptor/Logging.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/interceptor/AuditInterceptor.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/interceptor/Audit.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/servicelocator/ClientUtility.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/delegate/DateGenerateDelegate.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/utils/WSConfigurationFile.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/interceptor/LoggingInterceptor.java
+/home/lagonzall/Documentos/ProyectPersonal/Proyect/DateGenerate/DateGenerateWS/src/main/java/com/cl/proyect/dategenerate/ws/servicelocator/DateGenerateServiceLocator.java
