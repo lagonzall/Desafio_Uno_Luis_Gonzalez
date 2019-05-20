@@ -1,5 +1,8 @@
 package com.cl.proyect.dategenerate.ws.controller;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -43,6 +46,12 @@ public class DateGenerateService {
 		try {
 
 			dategenerateDTO = configurationDelegate.setDateGenerte(dateGenerateDTO);
+			
+			FileWriter file = new FileWriter("../../../resultDate.json", true);
+
+			file.write(gson.toJson(dategenerateDTO));
+			file.flush();
+			file.close();
 
 		} catch (Exception e) {
 
@@ -52,6 +61,9 @@ public class DateGenerateService {
 			dategenerateDTO.add(dateGenerateResponseDTO);
 
 		}
+
+		
+
 		return gson.toJson(dategenerateDTO);
 
 	}

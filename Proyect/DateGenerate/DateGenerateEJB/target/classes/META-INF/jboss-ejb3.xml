@@ -152,6 +152,7 @@
     <jee:assembly-descriptor>
         <ci:container-interceptors>
             <jee:interceptor-binding>
+            <ejb-name>*</ejb-name>
                 <interceptor-class>com.cl.proyect.dategenerate.interceptor.LoggingInterceptor</interceptor-class>
             </jee:interceptor-binding>
         </ci:container-interceptors>
